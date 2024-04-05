@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.myapplication">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.MyApplication">
+        <activity
+                android:name=".ListaUsuario"
+                android:exported="true"/>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".TelaDois"
+                android:exported="true"/>
+        <activity
+                android:name=".TelaTres"
+                android:exported="true"/>
+        <activity
+                android:name=".Telaquatro"
+                android:exported="true"/>
+        <activity
+                android:name=".Telacinco"
+                android:exported="true"/>
+        <activity
+                android:name=".Telasete"
+                android:exported="true"/>
+        <activity
+                android:name=".TelaOito"
+                android:exported="true"/>
+        <activity
+                android:name=".MyPerfil"
+                android:exported="true"/>
+        <activity
+                android:name=".TelaNove"
+                android:exported="true"/>
+        <activity
+                android:name=".TelaSeis"
+                android:exported="true"/>
+
+
+        <meta-data
+                android:name="proloaded_fonts"
+                android:value="your_value_here"/>
+    </application>
+
+</manifest>

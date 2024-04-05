@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView3Books" type="id"/>
+    <item name="textView4" type="id"/>
+    <item name="textViewCriarConta" type="id"/>
+    <item name="editTextNomeUsuario" type="id"/>
+    <item name="editTextNomeC" type="id"/>
+    <item name="editTextUsuario" type="id"/>
+    <item name="editTextPasswordSenha" type="id"/>
+    <item name="buttonI" type="id"/>
+    <item name="textView5" type="id"/>
+    <item name="textViewPermissao" type="id"/>
+    <item name="textView2" type="id"/>
+    <item name="imageView" type="id"/>
+    <item name="textView1" type="id"/>
+    <item name="imageView2" type="id"/>
+    <item name="imageView3" type="id"/>
+    <item name="subTextViewResenha1" type="id"/>
+    <item name="textViewResenha1" type="id"/>
+    <item name="bV" type="id"/>
+    <item name="subTextViewResenha4" type="id"/>
+    <item name="textViewResenha2" type="id"/>
+    <item name="textViewResenha4" type="id"/>
+    <item name="textViewResenha3" type="id"/>
+    <item name="subTextViewResenha3" type="id"/>
+    <item name="imageView7" type="id"/>
+    <item name="subTextViewResenha2" type="id"/>
+    <item name="viewUsersButton" type="id"/>
+    <item name="titleEditText" type="id"/>
+    <item name="pagesReadEditText" type="id"/>
+</resources>

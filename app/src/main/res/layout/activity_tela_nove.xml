@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fundo"
+                tools:context=".TelaNove">
+
+    <TextView
+            android:id="@+id/textViewEnqueteDaSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Enquete da Semana"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" android:layout_alignParentStart="true" android:layout_centerHorizontal="true"
+            android:layout_marginStart="112dp"/>
+    <TextView
+            android:id="@+id/textViewQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEnqueteDaSemana"
+            android:layout_marginTop="16dp"
+            android:text="Qual é o seu tema de livro favorito?"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <RadioGroup
+            android:id="@+id/radioGroupOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestion"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp">
+
+        <RadioButton
+                android:id="@+id/radioButtonFantasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fantasia"
+                android:textColor="@android:color/white"/>
+
+        <RadioButton
+                android:id="@+id/radioButtonMystery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mistério"
+                android:textColor="@android:color/white"/>
+
+        <RadioButton
+                android:id="@+id/radioButtonSciFi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ficção Científica"
+                android:textColor="@android:color/white"/>
+
+        <RadioButton
+                android:id="@+id/radioButtonRomance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance"
+                android:textColor="@android:color/white"/>
+
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/textViewBookOfMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioGroupOptions"
+            android:layout_marginTop="16dp"
+            android:text="Escolha a Leitura do Mês:"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <Spinner
+            android:id="@+id/spinnerBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBookOfMonth"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/buttonVote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerBooks"
+            android:layout_marginTop="16dp"
+            android:text="Votar" />
+
+</RelativeLayout>
