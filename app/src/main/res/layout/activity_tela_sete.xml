@@ -20,11 +20,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="43dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginStart="16dp"
-                android:text="Sua Agenda"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:layout_alignParentEnd="true"
-                android:layout_marginEnd="130dp"/>
+                android:text="Read planner"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:layout_alignParentEnd="true"
+                android:layout_marginEnd="152dp"/>
         <CalendarView
                 android:id="@+id/calendarView"
                 android:layout_width="319dp"
